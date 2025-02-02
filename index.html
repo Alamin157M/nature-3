@@ -23,7 +23,7 @@
 
     <header class="w-[100%] h-[1298px] bg-linear-to-t from-[#F5F2ED] mb-[80px]">
       <div
-        class="flex justify-between align-middle items-center ml-[50px] mr-[30px] mt-[15px]"
+        class="flex justify-between align-middle items-center mr-[50px] ml-[50px] mt-[15px]"
       >
         <div>
           <img src="./c2-assets/logo-header.png" alt="" />
@@ -69,7 +69,7 @@
 
       <div class="animate-bounce">
         <img
-          class="m-auto mt-[75px]"
+          class="m-auto mt-[75px] rounded-lg shadow-xl"
           src="./c2-assets/hero-vegetables.png"
           alt=""
         />
@@ -77,14 +77,14 @@
     </header>
 
     <main>
-      <section class="services mb-[80px] text-start ">
+      <section class="services p-[142px] text-start ">
         <h1
-          class="text-4xl text-[#179800] mb-[40px] font-bold ml-[140px]"
+          class="text-4xl text-[#179800] mb-[60px] font-bold text-center"
         >
           Services
         </h1>
 
-        <div class="flex gap-6 mb-[90px] justify-center ">
+        <div class="flex gap-6 mb-[90px] justify-center">
           <div class="bg-[#EFEBE3] w-[424px] h-[367px] rounded-[16px] p-[32px]">
             <img
               class="ml-[110px] bg-[#FFFF] rounded-[50%] h-[150px] w-[150px] p-[30px]"
@@ -148,16 +148,20 @@
         class="popular-products mb-[80px] p-[142px] h-[775px] bg-[#F5F2ED]"
       >
         <h1
-          class="text-4xl text-[#179800] font-bold ml-[0px] mb-[80px] text-start"
+          class="text-4xl text-[#179800] font-bold  mb-[80px] text-center"
         >
           Popular Products
         </h1>
-        <div class="flex">
+        <div class="flex justify-center gap-[50px]">
+
+         <div class="bg-linear-to-t from-[#179800] rounded-[16px]">
+
           <div
-            class="h-[402px] w-[600px] shadow-lg p-[30px] rounded-[16px] bg-linear-to-t from-[#179800]"
-          >
-            <h1 class="mt-[0px] text-5xl font-semibold text-purple-500 shadow-lg">30% Off</h1>
-            <p class="mt-[20px] font-normal w-[260px]">
+          class="h-[410px] w-[424px] bg-[url('./c2-assets/vegetable-offer.png')] bg-right-bottom bg-no-repeat  p-[30px] "
+        >    
+  
+              <h1 class= "text-5xl font-semibold">30% Off</h1>
+            <p class="mt-[20px] font-light w-[260px]">
               Discover a world of treats,toys and essentials handpicked for
             </p>
             <button
@@ -165,14 +169,13 @@
             >
               Buy Now
             </button>
-            <img
-              class="ml-[40px] mt-[-60px]"
-              src="./c2-assets/vegetable-offer.png"
-              alt=""
-            />
-          </div>
+    </div>
 
-          <div class="flex flex-wrap-reverse gap-3 justify-center">
+
+
+         </div>
+
+          <div class="grid grid-cols-3 gap-x-8 gap-y-8 justify-center">
 
             <div class="flex gap-4 h-[118px] w-[275px] rounded-[16px] p-[20px] bg-[#FFFFFF]">
               <div class="bg-[#f5f2ed]">
@@ -293,20 +296,21 @@
             </div>
 
           </div>
+
       </section>
 
 
-      <section class="Arrival">
+      <section class="Arrival p-[142px]">
         <h1
-        class="text-4xl text-[#179800] font-bold ml-[70px] mb-[80px] text-start"
+        class="text-4xl text-[#179800] font-bold  mb-[70px] text-center"
       >
       Arrival & Offers
       </h1>
 
-      <div class="mb-[80px] mx-auto my-auto flex">
+      <div class="mb-[80px] flex justify-center gap-[40px]">
 
 
-        <div class="w-[780px] h-[344px] p-[30px] bg-[#115414] rounded-[16px] mx-auto my-auto flex justify-between">
+        <div class="w-[780px] h-[344px] p-[30px] bg-[#115414] rounded-[16px] flex justify-center">
           <div>
             <img class="mt-[30px]" src="./c2-assets/dawat-logo.png" alt="">
             <button class="mt-[30px] w-[334px] h-[65px] text-white font-semibold bg-[#63B76D] rounded-[13.29px] hover:bg-green-500">Cook Exotic Dishes</button>
@@ -319,7 +323,7 @@
 
 
 
-        <div class="w-[520px] h-[344px] bg-[#102861] rounded-[16px] mx-auto my-auto flex justify-between p-[30px] ">
+        <div class="w-[520px] h-[344px] bg-[#102861] rounded-[16px] flex justify-center p-[30px] ">
           <div>
             <img src="./c2-assets/india-gate-logo.png" alt="">
             <button class="mt-[30px] w-[280px] h-[65px] text-white font-semibold bg-[#2A4D97] rounded-[13.29px] hover:bg-slate-400">World’s No.1 Rice</button>
@@ -336,7 +340,7 @@
       </section>
 
       <section class="my-section">
-        <div class="hero bg-orange-100 h-[500px] w-[100%] mb-[120px] flex justify-around items-center align-middle">
+        <div class="hero bg-[#F5F2ED] h-[500px] w-[100%] mb-[120px] flex justify-center gap-[50px] items-center align-middle">
               <div>
                 <h1 class="text-5xl font-bold">Vagetables!</h1>
               <p class="w-[550px] mt-[40px]">
